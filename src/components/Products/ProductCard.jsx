@@ -23,7 +23,7 @@ export default function ProductCard({ title, description, images, slug }) {
   };
 
   return (
-    <Link href={`/products/${slug}`}>
+    <Link href={`/${slug}`}>
       <div className="rounded-lg overflow-hidden border border-border/40 bg-white dark:bg-black hover:shadow-lg transition-shadow">
         <div 
           ref={imageContainerRef}
